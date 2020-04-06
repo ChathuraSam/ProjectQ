@@ -13,5 +13,6 @@ class Register extends CI_Controller {
 	public function index()
 	{
 		$this->load->helper('register');
+		$this->load->view('register');
 	}
 }
