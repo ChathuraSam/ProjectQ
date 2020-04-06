@@ -16,6 +16,10 @@
   <!-- Custom styles for this template -->
   <link href="<?php echo base_url(); ?>css/vendor/scrolling-nav.css" rel="stylesheet">
 
+  <!-- Bootstrap core CSS -->
+  <link href="<?php echo base_url(); ?>css/vendor/froala_blocks.css" rel="stylesheet">
+<!--   <link href="<?php echo base_url(); ?>css/vendor/froala_blocks.min.css" rel="stylesheet"> -->
+
 </head>
 
 <body id="page-top">
@@ -29,22 +33,28 @@
     </div>
   </header>
 
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>About this page</h2>
-          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-          <ul>
-            <li>Clickable nav links that smooth scroll to page sections</li>
-            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-          </ul>
-        </div>
+  <section class="fdb-block" id="about">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-12">
+        <h1>Buy and sell 3D designs you want</h1>
+        <p class="h2"><em>We have 1000+ 3D models.</em></p>
       </div>
     </div>
-  </section>
+
+    <div class="row text-center pt-3 pt-xl-5">
+      <div class="col-12 col-sm-10 m-auto m-md-0 col-md-6">
+        <img alt="image" height="300" src="<?php echo base_url(); ?>img/main-page/tenis.svg">
+        <p class="lead pt-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+      </div>
+
+      <div class="col-12 col-sm-10 m-auto m-md-0 col-md-6 pt-5 pt-md-0">
+        <img alt="image" height="300" src="<?php echo base_url(); ?>img/main-page/basketball.svg">
+        <p class="lead pt-3">Right at the coast of the Semantics, a large language ocean. A small river named Duden.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
   <section id="services" class="bg-light">
     <div class="container">
@@ -68,13 +78,7 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+  <?php include 'footer.php'?>
 
   <!-- Bootstrap core JavaScript -->
   <script src="<?php echo base_url(); ?>js/vendor/jquery/jquery.min.js"></script>
