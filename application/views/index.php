@@ -14,11 +14,11 @@
   <link href="<?php echo base_url(); ?>css/bootstrap/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="<?php echo base_url(); ?>css/vendor/scrolling-nav.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>/css/vendor/scrolling-nav.css" rel="stylesheet">
 
   <!-- Bootstrap core CSS -->
-  <link href="<?php echo base_url(); ?>css/vendor/froala_blocks.css" rel="stylesheet">
-<!--   <link href="<?php echo base_url(); ?>css/vendor/froala_blocks.min.css" rel="stylesheet"> -->
+  <link href="<?php echo base_url(); ?>/css/vendor/froala_blocks.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>/css/vendor/froala_blocks.min.css" rel="stylesheet">
 
 </head>
 
@@ -44,12 +44,12 @@
 
     <div class="row text-center pt-3 pt-xl-5">
       <div class="col-12 col-sm-10 m-auto m-md-0 col-md-6">
-        <img alt="image" height="300" src="<?php echo base_url(); ?>img/main-page/tenis.svg">
+        <img alt="image" height="300" src="../img/main-page/tenis.svg">
         <p class="lead pt-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
       </div>
 
       <div class="col-12 col-sm-10 m-auto m-md-0 col-md-6 pt-5 pt-md-0">
-        <img alt="image" height="300" src="<?php echo base_url(); ?>img/main-page/basketball.svg">
+        <img alt="image" height="300" src="../img/main-page/basketball.svg">
         <p class="lead pt-3">Right at the coast of the Semantics, a large language ocean. A small river named Duden.</p>
       </div>
     </div>
