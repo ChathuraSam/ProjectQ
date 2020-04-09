@@ -24,4 +24,8 @@ class Welcome extends CI_Controller {
 		$this->load->view('index');
 	}
 
+	public function seee(){
+		echo "<h1>Chathura</h1>";
+	}
+
 }

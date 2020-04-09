@@ -26,7 +26,7 @@
 
   <?php include 'navbar.php'?>
 
-  <header class="bg-primary text-white" style=" background-image: url('<?php echo base_url(); ?>img/main-page/main-banner.jpg')">
+  <header class="bg-primary text-white" style="background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);">
     <div class="container text-center">
       <h1>Welcome to Project Q</h1>
       <p class="lead">A 3D model search tool. Where you can sell and buy models for your game or projects</p>
@@ -70,13 +70,12 @@
   <section id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+          <?php include 'contact.php'?>
         </div>
-      </div>
     </div>
   </section>
+
+  <?php include 'blocks.php'?>
 
   <?php include 'footer.php'?>
 
