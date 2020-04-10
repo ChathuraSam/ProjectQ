@@ -26,6 +26,8 @@
 
   <?php include 'navbar.php'?>
 
+
+
   <section class="fdb-block">
     <div class="container">
       <div class="row justify-content-center">
@@ -36,7 +38,7 @@
                 <h1>Sign Up</h1>
               </div>
             </div>
-            <form>
+            <form action="google.com" method="post">
              <div class="row">
               <div class="col mt-4">
                 <input type="text" class="form-control" placeholder="Name">

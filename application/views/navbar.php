@@ -18,7 +18,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Sign In</a>
+            <a class="nav-link js-scroll-trigger" href="<?php echo base_url(); ?>index.php/Controller_Login/">Sign In</a>
           </li>
 
           <li class="nav-item">

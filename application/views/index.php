@@ -61,24 +61,53 @@
   </div>
 </section>
 
-  <section id="services" class="bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Services we offer</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-        </div>
+  <section class="fdb-block" id="services">
+  <div class="container">
+    <div class="row justify-content-center pb-5">
+      <div class="col-12 text-center">
+        <h1>Look at the serices we offer to you</h1>
       </div>
     </div>
-  </section>
 
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-          <?php include 'contact.php'?>
-        </div>
+    <div class="row text-left align-items-center pt-5 pb-md-5">
+      <div class="col-4 col-md-5">
+        <img alt="image" class="img-fluid" src="<?php echo base_url(); ?>/img/main-page/marginalia-design-process.png">
+      </div>
+
+      <div class="col-12 col-md-5 m-md-auto">
+        <h2><strong>Feature One</strong></h2>
+        <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <p><a href="https://www.froala.com">Learn More <i class="fas fa-angle-right"></i></a></p>
+      </div>
     </div>
-  </section>
+
+    <div class="row text-left align-items-center pt-5 pb-md-5">
+      <div class="col-4 col-md-5 m-md-auto order-md-5">
+        <img alt="image" class="img-fluid" src="./imgs/draws/design-life.svg">
+      </div>
+
+      <div class="col-12 col-md-5">
+        <h2><strong>Feature Two</strong></h2>
+        <p class="lead">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+        <p><a href="https://www.froala.com">Learn More <i class="fas fa-angle-right"></i></a></p>
+      </div>
+    </div>
+
+    <div class="row text-left align-items-center pt-5">
+      <div class="col-4 col-md-5">
+        <img alt="image" class="img-fluid" src="./imgs/draws/design-community.svg">
+      </div>
+
+      <div class="col-12 col-md-5 m-md-auto">
+        <h2><strong>Feature Three</strong></h2>
+        <p class="lead">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn
+          around.
+        </p>
+        <p><a href="https://www.froala.com">Learn More <i class="fas fa-angle-right"></i></a></p>
+      </div>
+    </div>
+  </div>
+</section>
 
   <?php include 'blocks.php'?>
 
