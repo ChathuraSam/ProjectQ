@@ -25,13 +25,16 @@
 <body id="page-top">
 
   <?php include 'navbar.php'?>
+<?php include 'main-slider.php'?>
+  <!-- <header class="bg-primary text-white">
 
-  <header class="bg-primary text-white" style="background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);">
     <div class="container text-center">
+
       <h1>Welcome to Project Q</h1>
+
       <p class="lead">A 3D model search tool. Where you can sell and buy models for your game or projects</p>
     </div>
-  </header>
+  </header> -->
 
   <section class="fdb-block" id="about">
   <div class="container">
@@ -42,14 +45,16 @@
       </div>
     </div>
 
+    <?php include 'card-deck.php'?>
+
     <div class="row text-center pt-3 pt-xl-5">
       <div class="col-12 col-sm-10 m-auto m-md-0 col-md-6">
-        <img alt="image" height="300" src="../img/main-page/tenis.svg">
+        <img alt="image" height="300" src="<?php echo base_url(); ?>/img/main-page/tenis.svg">
         <p class="lead pt-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
       </div>
 
       <div class="col-12 col-sm-10 m-auto m-md-0 col-md-6 pt-5 pt-md-0">
-        <img alt="image" height="300" src="../img/main-page/basketball.svg">
+        <img alt="image" height="300" src="<?php echo base_url(); ?>/img/main-page/basketball.svg">
         <p class="lead pt-3">Right at the coast of the Semantics, a large language ocean. A small river named Duden.</p>
       </div>
     </div>
@@ -78,6 +83,8 @@
   <?php include 'blocks.php'?>
 
   <?php include 'footer.php'?>
+
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="<?php echo base_url(); ?>js/vendor/jquery/jquery.min.js"></script>

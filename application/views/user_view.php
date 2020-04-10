@@ -42,9 +42,9 @@
 	  	foreach ($userData as $key => $value) {
 	  		echo "
 			<tr>
-		      <th scope='row'>".$value->id."</th>
-		      <td>".$value->name."</td>
-		      <td>".$value->email."</td>
+		      <th scope='row'>".$value->UserID."</th>
+		      <td>".$value->UserName."</td>
+		      <td>".$value->UserEmail."</td>
 	    	</tr>
 	  		";
   		}
