@@ -25,18 +25,18 @@
 <body id="page-top">
 
   <?php include 'navbar.php'?>
-<?php include 'main-slider.php'?>
-  <!-- <header class="bg-primary text-white">
+  <?php include 'main-slider.php'?>
+<!-- <header class="bg-primary text-white">
 
-    <div class="container text-center">
+<div class="container text-center">
 
-      <h1>Welcome to Project Q</h1>
+<h1>Welcome to Project Q</h1>
 
-      <p class="lead">A 3D model search tool. Where you can sell and buy models for your game or projects</p>
-    </div>
-  </header> -->
+<p class="lead">A 3D model search tool. Where you can sell and buy models for your game or projects</p>
+</div>
+</header> -->
 
-  <section class="fdb-block" id="about">
+<section class="fdb-block" id="about">
   <div class="container">
     <div class="row text-center">
       <div class="col-12">
@@ -61,7 +61,7 @@
   </div>
 </section>
 
-  <section class="fdb-block" id="services">
+<section class="fdb-block" id="services">
   <div class="container">
     <div class="row justify-content-center pb-5">
       <div class="col-12 text-center">
@@ -109,21 +109,21 @@
   </div>
 </section>
 
-  <?php include 'blocks.php'?>
+<?php include 'blocks.php'?>
 
-  <?php include 'footer.php'?>
+<?php include 'footer.php'?>
 
 
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="<?php echo base_url(); ?>js/vendor/jquery/jquery.min.js"></script>
-  <script src="<?php echo base_url(); ?>js/bootstrap/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="<?php echo base_url(); ?>js/vendor/jquery/jquery.min.js"></script>
+<script src="<?php echo base_url(); ?>js/bootstrap/bootstrap.bundle.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="<?php echo base_url(); ?>js/vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="<?php echo base_url(); ?>js/vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Custom JavaScript for this theme -->
-  <script src="<?php echo base_url(); ?>js/vendor/scrolling-nav.js"></script>
+<!-- Custom JavaScript for this theme -->
+<script src="<?php echo base_url(); ?>js/vendor/scrolling-nav.js"></script>
 
 </body>
 
