@@ -38,22 +38,35 @@
                 <h1>Sign Up</h1>
               </div>
             </div>
-            <form action="google.com" method="post">
+            <form action="<?php echo base_url('auth/post_register') ?>" method="post" accept-charset="utf-8">
              <div class="row">
               <div class="col mt-4">
-                <input type="text" class="form-control" placeholder="Name">
+                <input type="text" class="form-control" name="first_name" placeholder="first name">
+                <?php echo form_error('first_name'); ?> 
               </div>
             </div>
             <div class="row mt-4">
               <div class="col">
-                <input type="text" class="form-control" placeholder="Email">
+                <input type="text" class="form-control"  name="last_name" placeholder="last name">
+                <?php echo form_error('last_name'); ?>  
               </div>
             </div>
             <div class="row mt-4">
               <div class="col">
-                <input type="password" class="form-control mb-1" placeholder="Password">
-     
-                
+                <input type="text" class="form-control mb-1" name="contact_no" placeholder="contact number" maxlength="10">
+                <?php echo form_error('contact_no'); ?> 
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <input type="text" class="form-control mb-1"  name="email" placeholder="email">
+                <?php echo form_error('email'); ?> 
+              </div>
+            </div>
+             <div class="row mt-4">
+              <div class="col">
+                <input type="password" class="form-control mb-1" name="password" placeholder="Password">
+                <?php echo form_error('password'); ?> 
               </div>
             </div>
 
@@ -65,7 +78,7 @@
             </div>
             <div class="row mt-4">
               <div class="col">
-                <button class="btn btn-primary" type="button">Submit</button>
+                <button class="btn btn-primary" type="Submit">Submit</button>
               </div>
             </div>
           </form>

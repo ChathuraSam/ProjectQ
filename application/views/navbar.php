@@ -10,6 +10,7 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="<?php echo base_url(); ?>index.php/#about">About</a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="<?php echo base_url(); ?>index.php/#services">Services</a>
           </li>
@@ -18,12 +19,29 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="<?php echo base_url(); ?>index.php/Controller_Login/">Sign In</a>
+            <a class="nav-link js-scroll-trigger" href="<?php echo base_url(); ?>index.php/auth/">Sign In</a>
           </li>
 
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="<?php echo base_url(); ?>index.php/register/">Sign Up</a>
           </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="<?= base_url();?>auth/logout">Logout</a>
+          </li>
+
+          <li class="nav-item">
+            <?php 
+            if ($this->session->userdata('first_name')==NULL) {
+              echo "<a class='nav-link js-scroll-trigger'> Hello Guest</a>";
+            }else{
+              echo "<a class='nav-link js-scroll-trigger'> Hello ".$this->session->userdata('first_name')."</a>";
+            } 
+
+            ?>
+          </li>
+          
         </ul>
       </div>
     </div>

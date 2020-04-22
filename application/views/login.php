@@ -26,7 +26,7 @@
 
   <?php include 'navbar.php'?>
 
-
+<form action="<?php echo base_url('auth/post_login') ?>" method="post" accept-charset="utf-8">
 <section class="fdb-block py-0">
   <div class="container py-5 my-5" style="background-image: url(<?php echo base_url(); ?>/img/main-page/kingdom-sign-in.png);">
     <div class=" row justify-content-end">
@@ -40,17 +40,19 @@
           </div>
           <div class="row">
             <div class="col mt-4">
-              <input type="text" class="form-control" placeholder="Email">
+              <input type="text" class="form-control" name="email" placeholder="email">
+              <?php echo form_error('email'); ?> 
             </div>
           </div>
           <div class="row mt-4">
             <div class="col">
-              <input type="password" class="form-control" placeholder="Password">
+              <input type="password" class="form-control" name="password" placeholder="Password">
+              <?php echo form_error('password'); ?> 
             </div>
           </div>
           <div class="row mt-4">
             <div class="col">
-              <button class="btn btn-secondary" type="button">Submit</button>
+              <button class="btn btn-secondary" type="Submit">Submit</button>
             </div>
           </div>
         </div>
@@ -58,6 +60,8 @@
     </div>
   </div>
 </section>
+</form>
+
 
 
   <?php include 'footer.php'?>

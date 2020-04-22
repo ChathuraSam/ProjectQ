@@ -41,7 +41,7 @@
     <div class="row text-center">
       <div class="col-12">
         <h1>Buy and sell 3D designs you want</h1>
-        <p class="h2"><em>Welcome to Project Q of Amarok Asia (PVT) LTD, your #1 source for all kind of 3D Models. We're dedicated to giving you the very best of the 3D Models in the internet, with a focus on free and paid versions and to provide a good marketplace for your 3D Model.</em></p>
+        <p class="h2"><em>We have 1000+ 3D models.</em></p>
       </div>
     </div>
 
